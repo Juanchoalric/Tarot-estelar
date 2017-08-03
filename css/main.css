@@ -1,0 +1,95 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #edecee;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23c6c4c9' fill-opacity='0.39'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+body {
+    color: #222;
+    font-size: 10px;
+    line-height: 1.4;
+    font-family: Roboto;
+}
+
+.general-container {
+    margin: 5px;
+    background-color: white;
+    margin-top: 12px;
+    box-shadow: 0 1px 3px 0 rgba(119, 119, 119, 0.3);
+}
+
+header h1 {
+    font-size: 5em;
+    margin: 0;
+    padding-top: 23px;
+    text-align: center;
+}
+
+header div {
+    text-align: center;
+    font-size: 4em;
+    padding-top: 20px;
+    color: #59595b;
+    padding-bottom: 20px;
+}
+
+.navigation-bar ul {
+    padding-left: 0;
+}
+
+.navigation-bar ul li{
+    color: #59595b;
+    text-decoration: none;
+    list-style-type: none;
+    size: 20px;
+    font-size: 2.5em;
+    padding: 12px;
+    border-bottom: solid 1px #59595b;
+    text-align: left;
+}
+
+.body-container {
+    height: 10000px;
+    background-color: white;
+}
+
+a {
+    padding-left: 8px;
+    color: #59595b;
+    text-decoration: none;
+}
+
+.home-description h2 {
+    color: #59595b;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.home-description p{
+    color: #59595b;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
