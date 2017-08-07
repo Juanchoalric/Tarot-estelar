@@ -18,7 +18,8 @@
 
 html {
     background-color: #edecee;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23c6c4c9' fill-opacity='0.39'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("../img/ep_naturalblack.png");
+    background-repeat: repeat;
 }
 
 body {
@@ -41,7 +42,8 @@ body {
     header h1 {
         font-size: 5em;
         margin: 0;
-        margin-top: 23px;
+        color: white;
+        margin-top: 60px;
         text-align: center;
     }
 
@@ -61,7 +63,6 @@ body {
         color: #59595b;
         text-decoration: none;
         list-style-type: none;
-        size: 20px;
         font-size: 2.5em;
         padding: 12px;
         border-bottom: solid 1px #59595b;
@@ -75,7 +76,7 @@ body {
 
     a {
         padding-left: 8px;
-        color: #59595b;
+        color: white;
         text-decoration: none;
     }
 
@@ -169,10 +170,10 @@ body {
     header h1 {
         font-size: 5em;
         margin: 0;
-        vertical-align: middle;
-        display: inline-block;
+        color: white;
+        display: block;
         padding-top: 23px;
-        text-align: left;
+        text-align: center;
     }
 
     header div {
@@ -180,9 +181,9 @@ body {
     }
 
     .navigation-bar {
-        display: inline-block;
+        display: block;
         margin-top: 30px;
-        float: right;
+        text-align: center;
         vertical-align: middle;
     }
 
@@ -194,9 +195,6 @@ body {
         border: none;
     }
 
-    .navigation-bar ul :first-child{
-        padding-left: 0;
-    }
 
     .navigation-bar ul li {
         color: #59595b;
@@ -205,14 +203,12 @@ body {
         list-style-type: none;
         border-right: solid 1px #59595b;
         font-size: 2.5em;
-        padding-left: 12px;
-        text-align: left;
+        padding-right: 3%;
+        padding-left: 3%;
     }
 
     .navigation-bar ul li :hover{
         color: steelblue;
-        transition: 2s;
-        font-size: 1.1em;
     }
 
 
@@ -225,7 +221,7 @@ body {
     }
 
     a {
-        color: #59595b;
+        color: white;
         padding-right: 16px;
         text-decoration: none;
     }
@@ -236,7 +232,7 @@ body {
         margin-top: 20px;
         padding-top: 12px;
         margin-bottom: 20px;
-        font-size: 3em;
+        font-size: 4em;
     }
 
     .home-description p {
