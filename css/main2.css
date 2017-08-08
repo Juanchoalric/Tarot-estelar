@@ -1,45 +1,95 @@
 /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
+.navbar {
+	margin-bottom: 0;
+	background-color: #d9d9d9;
+	border-radius: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 0;
+	border-radius: 0;
+	font-size: 17px;
+	color: red;
+	letter-spacing: 3px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/zodiaco.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+	padding-top: 20px;
+	height: 100%;
+}
+
+#zonaDerechaInfo {
+	padding-left: 30px;
+}
+
+.contentLanding #divRecibirInfo{margin:0 0 10px 0;border:solid 1px rgba(0, 0, 0, 0.08);}
+.contentLanding .fotosLanding h3{margin-bottom:12px;}
+.contentLanding #divRecibirInfo textarea{height:83px !important;}
+#divRecibirInfo{background:#d9d9d9;padding:11px 15px 15px;margin-bottom:20px;font-weight:bold;line-height:20px;font-size:11px;}
+#divRecibirInfo input[type=text], #divRecibirInfo textarea{border:solid 1px #b3b3b3;background:#FFF;padding:12px 6px;font-size:12px;width:100%;box-sizing:border-box;margin-bottom:8px;}
+#divRecibirInfo textarea{height:100px;padding:5px 6px;margin-bottom:4px;}
+#divRecibirInfo2{border-radius:5px;background:#eee;padding:11px 15px 15px;font-weight:bold;line-height:20px;margin-top:20px;}
+#divRecibirInfo2 h2{margin:0px 0 15px !important;font-size:16px!important;color:#333!important; font-family:"Source Sans Pro",Arial, Helvetica, sans-serif !important;}
+#divRecibirInfo2 input[type=text], #divRecibirInfo2 textarea{outline:none;font-family:"Open Sans", Arial, sans-serif;border:none;background:#FFF;padding:15px 8px;border-radius:5px;font-size:12px;width:100%;box-sizing:border-box;margin-bottom:8px;}
+#divRecibirInfo2 textarea{height:100px;padding:5px 6px;margin-bottom:4px;}
+
 
 footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
+	background-color: #555;
+	color: white;
+	padding: 15px;
+}
 
 
 body {
-    color: #222;
-    text-align: justify;
-    text-justify: inter-word;
-    margin: auto;
-    line-height: 1.4;
-    font-family: Roboto;
+	color: #222;
+	text-align: justify;
+	text-justify: inter-word;
+	margin: auto;
+	line-height: 1.4;
+	font-family: Roboto;
 }
 
 p {
+	font-size: 18px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#links a:link{
+    color: #000;
+}
+
+br {
+	margin-bottom: 10px;
+}
+
+h3 {
 	font-size: 15px;
 }
 
+body {
+	background-color: #f2f2f2;
+}
+
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 17px;
-    letter-spacing: 3px;
 }
