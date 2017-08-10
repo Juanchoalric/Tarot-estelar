@@ -18,13 +18,21 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+	background: url('https://freeios7.com/download/freeios7.com_apple_wallpaper_milky-way-galaxy_ipad_retina.jpg') no-repeat center center scroll;
     padding: 100px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .image-bg-fixed-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
-    height: 450px;
+	background: url('https://freeios7.com/download/freeios7.com_apple_wallpaper_purple-galaxy-y_ipad_retina.jpg') no-repeat center center scroll;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img-center {
