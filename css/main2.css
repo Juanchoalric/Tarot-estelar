@@ -57,6 +57,37 @@
 .divRecibirInfo2 input[type=text], #divRecibirInfo2 textarea{outline:none;font-family:"Open Sans", Arial, sans-serif;border:none;background:#FFF;padding:15px 8px;border-radius:5px;font-size:12px;width:100%;box-sizing:border-box;margin-bottom:8px;}
 .divRecibirInfo2 textarea{height:100px;padding:5px 6px;margin-bottom:4px; width:100%;}
 
+.title-comments{
+    margin-bottom: 20px;
+}
+
+.border-comment {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #cccccc;
+    margin-bottom: 20px;
+}
+
+.user-name-comment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-name-comment p{
+    display: inline;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment-date {
+    margin-top: 20px;
+}
+
+.comment-date p{
+    float: right;
+}
+
 
 footer {
 	background-color: #555;
