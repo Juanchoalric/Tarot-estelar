@@ -59,34 +59,39 @@
 
 .title-comments{
     margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.block-comments{
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+}
+
+.block-comment{
+    border-radius: 5px;
+    margin: 1%;
+    background-color: #FFFFFF;
 }
 
 .border-comment {
-    padding-bottom: 10px;
-    border-bottom: solid 1px #cccccc;
+    padding: 10px 10px 10px 0;
     margin-bottom: 20px;
 }
 
 .user-name-comment {
+    text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .user-name-comment p{
-    display: inline;
-    background-color: #333333;
-    color: #FFFFFF;
     padding: 10px;
-    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+
 }
 
-.comment-date {
-    margin-top: 20px;
-}
-
-.comment-date p{
-    float: right;
-}
 
 
 footer {
