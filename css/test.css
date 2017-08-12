@@ -1,7 +1,6 @@
-
 br {
-	margin-bottom: 20px;
-}
+			line-height: 150%;
+	 }
 
 .parallax {
     /* The image used */
@@ -15,4 +14,14 @@ br {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.texto-justificado {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 180%;
+}
+
+.logo {
+	max-height: 200px;
 }
