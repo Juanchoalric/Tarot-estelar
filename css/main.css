@@ -30,7 +30,7 @@
 }
 
 section {
-    padding: 75px 0;
+    padding: 30px 15px;
 }
 
 .section-heading {
@@ -77,9 +77,23 @@ max-height: 200px;
 
 .drop-shadow {
     -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 15px 12px rgba(0, 0, 0, .5);
+    background-color: white;
 }
-.container.drop-shadow {
-    padding-left:0;
-    padding-right:0;
+
+.retrato {
+    max-height: 300px;
+    margin: 10px;
+}
+
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://freeios7.com/download/freeios7.com_apple_wallpaper_purple-galaxy-y_ipad_retina.jpg);
+}
+
+.background-primary {
+    background-color: #9c64a6;
 }
